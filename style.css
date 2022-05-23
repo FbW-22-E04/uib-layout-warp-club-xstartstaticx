@@ -44,17 +44,30 @@ ul div {
   align-items: center;
 }
 .ul-right li {
-  background-color: red;
-  border: 1px solid white;
-  border-radius: 1rem;
-  padding: 1.3rem 2rem;
   margin-right: 5.5rem;
 }
 li {
   list-style-type: none;
-  color: white;
   font-size: 1.7em;
   font-weight: 700;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  background-color: red;
+  border: 1px solid white;
+  border-radius: 1rem;
+  padding: 1.3rem 2rem;
+}
+a:active {
+  background-color: red;
+  border: 1px solid white;
+  border-radius: 1rem;
+  padding: 1.3rem 2rem;
+  text-decoration: line-through;
 }
 /* MAIN SECTION */
 section {
